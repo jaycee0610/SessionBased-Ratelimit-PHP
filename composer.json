@@ -1,0 +1,17 @@
+{
+    "name": "rootscratch/ratelimit",
+    "description": "Rootscratch Ratelimit PHP is a lightweight session-based rate-limiting solution for PHP applications. It helps protect your web app from excessive requests by implementing request throttling without the need for external databases like Redis.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rootscratch\\Ratelimit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Christian Natividad",
+            "email": "jaycee@rootscratch.com"
+        }
+    ],
+    "require": {}
+}
