@@ -23,6 +23,9 @@ require_once "vendor/autoload.php";
 
 use Rootscratch\Ratelimit\Deploy;
 new Deploy(request_limit: 5, timeframe: 10, error_type: 'html');
+
+//OR
+//new Rootscratch\Ratelimit\Deploy(request_limit: 5, timeframe: 10, error_type: 'html');
 ```
 
 ### Error Display Types
